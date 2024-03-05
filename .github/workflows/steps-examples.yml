@@ -1,7 +1,6 @@
 name: steps examples
 on:
-  push:
-    branches: [ "main" ]
+  workflow_dispatch
 jobs:
   marketplace:
     runs-on: ubuntu-latest
