@@ -7,6 +7,6 @@
       ping:
       register: resultado
       
-    - namex: show results
+    - name: show results
       debug:
-      msg: '{{ resultado }}'
+        msg: '{{ resultado }}'
